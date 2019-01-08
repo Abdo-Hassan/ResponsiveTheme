@@ -1,0 +1,107 @@
+/*start about us*/
+.breadcrumb_holder{
+	margin-top:50px;
+	background-color: #e9ecef;
+}
+
+.breadcrumb_holder nav ol{
+	padding-top: 22px;
+	margin-bottom: 0;
+}
+
+.about_us {
+	padding:60px 0;
+}
+
+.about_us h1{
+	font-family:'Raleway', sans-serif;
+	font-size: 62px;
+}
+
+.about_us hr{
+	margin-top:0;
+	border-top: 2px solid rgba(0,0,0,.1);
+	width: 80%;
+}
+
+.about_features{
+	padding:0 0 70px;
+}
+
+.about_features h3{
+	font-family:'Raleway', sans-serif;
+	margin:20px 0 10px;
+}
+
+.about_features p{
+	margin-bottom:20px;
+}
+
+.about_ceo{
+	background-color: #eee;
+	padding-top: 40px;
+}
+
+.about_ceo img{
+	margin-bottom: 30px;
+}
+
+.about_ceo h2{
+	font-family:'Raleway', sans-serif;
+
+}
+
+.about_ceo p{
+	line-height: 1.8;
+}
+
+.about_ceo .btn-primary{
+	background-color: #333;
+	border-color: #333;
+	margin-bottom:25px
+}
+/*end about us*/
+
+/* start FAQ */
+
+.faq{
+	padding: 40px 0;
+}
+
+.faq h1{
+	font-family: 'Raleway', sans-serif;
+  letter-spacing: -3px;
+  font-size: 65px;
+}
+
+.faq hr{
+	margin-top:0;
+	border-top: 2px solid rgba(0,0,0,.1);
+	width: 70%;
+}
+
+#accordion .card-header{
+	padding: 20px;
+}
+
+#accordion .card-link{
+	color: #111;
+}
+
+#accordion .card a:after{
+	font-family: 'Font Awesome 5 Free'; /*must call the font family first*/
+	font-weight: 900; /*must add this with :(Solid) icons ONLY !*/
+	content: "\f063";
+	float: right;
+	color: #444;
+}
+
+#accordion .card a.collapsed:after{
+	font-family: 'Font Awesome 5 Free'; /*must call the font family first*/
+	font-weight: 900; /*must add this with :(Solid) icons ONLY !*/
+	content: "\f061";
+	color: #999;
+}
+
+/* end FAQ */
+

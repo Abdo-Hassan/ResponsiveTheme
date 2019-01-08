@@ -1,0 +1,24 @@
+/*start default theme*/
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.option-box .gear-check {
+  background-color: #FFD500;
+}
+
+.navbar-dark .navbar-brand span,
+.about h1 span,
+.testimonials span,
+.testimonials .carousel-indicators li.active,
+.footer h3,
+.footer .copyright span{
+	color: #FFD500;
+}
+
+.option-box .color-option{
+	border:4px solid #FFD500;
+}
+
+/*end default theme*/
